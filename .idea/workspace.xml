@@ -5,7 +5,7 @@
     <ignored path="cour-compinvest.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/numpy_tut.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364224450245" ignored="false" />
-    <file path="/qstk_tut1.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364226126712" ignored="false" />
+    <file path="/qstk_tut1.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364402404641" ignored="false" />
     <file path="/simulate.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364294264475" ignored="false" />
     <file path="/assess_portfolio.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364233142955" ignored="false" />
     <file path="/Python Console" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364230808237" ignored="false" />
@@ -14,6 +14,8 @@
     <file path="/__init__.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364280710466" ignored="false" />
     <file path="/simulate-test.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364292484566" ignored="false" />
     <file path="/optimizer.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364296873073" ignored="false" />
+    <file path="/qstk_tut9.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364402520531" ignored="false" />
+    <file path="/hw2.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364410481921" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,45 +32,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="simulate-test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w3/simulate-test.py">
+      <file leaf-file-name="qstk_tutorial9.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/w4/qstk_tutorial9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="165" selection-start="634" selection-end="757" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="329" selection-end="567" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#329#348#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_simulate.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w3/_simulate.py">
+      <file leaf-file-name="hw2.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/w4/hw2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="55" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+            <state line="51" column="72" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.26086956">
               <folding>
-                <element signature="e#21#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simulate.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w3/simulate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="33" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#21#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="optimizer.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/w3/optimizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="20" selection-start="830" selection-end="830" vertical-scroll-proportion="0.53333336">
-              <folding>
-                <element signature="e#20#41#0" expanded="true" />
+                <element signature="e#21#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +57,10 @@
       <file leaf-file-name="qstk_tut1.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/w3/qstk_tut1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="34" selection-start="59" selection-end="93" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="22" column="0" selection-start="154" selection-end="623" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#21#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +68,7 @@
       <file leaf-file-name="numpy_tut.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/w3/numpy_tut.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="4" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+            <state line="4" column="18" selection-start="46" selection-end="64" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -103,7 +85,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/w3/numpy_tut.py" />
-        <option value="$PROJECT_DIR$/w3/qstk_tut1.py" />
         <option value="$PROJECT_DIR$/w3/assess_portfolio.py" />
         <option value="$PROJECT_DIR$/w3/simulate.test.py" />
         <option value="$PROJECT_DIR$/w3/test/simulate-test.py" />
@@ -112,14 +93,17 @@
         <option value="$PROJECT_DIR$/w3/simulate-test.py" />
         <option value="$PROJECT_DIR$/w3/simulate.py" />
         <option value="$PROJECT_DIR$/w3/optimizer.py" />
+        <option value="$PROJECT_DIR$/w3/qstk_tut1.py" />
+        <option value="$PROJECT_DIR$/w4/qstk_tut9.py" />
+        <option value="$PROJECT_DIR$/w4/hw2.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="66" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -147,7 +131,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,22 +149,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="w4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cour-compinvest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cour-compinvest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="w3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -192,13 +190,16 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\coursera\cour-compinvest\w4" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\cour\cour-compinvest\w3" />
       <recent name="C:\dev\cour\cour-compinvest\w3\tests" />
       <recent name="C:\dev\cour\cour-compinvest\w3\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.optimizer">
+  <component name="RunManager" selected="Python.hw2">
     <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -386,6 +387,42 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="tut9" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:/Python27/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/w4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="cour-compinvest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="qstk_tutorial9.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="hw2" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:/Python27/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/w4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="cour-compinvest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="hw2.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="simulate.test" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,12 +448,14 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.tut" />
       <item index="1" class="java.lang.String" itemvalue="Python.qstk1" />
       <item index="2" class="java.lang.String" itemvalue="Python.simulate" />
       <item index="3" class="java.lang.String" itemvalue="Python.optimizer" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.simulate.test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tut9" />
+      <item index="5" class="java.lang.String" itemvalue="Python.hw2" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.simulate.test" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -447,18 +486,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="66" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3659091" sideWeight="0.45092025" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2620064" sideWeight="0.4512987" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3982684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5490798" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5487013" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -523,114 +562,55 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="37" />
+      <option name="time" value="39" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/w3/numpy_tut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="38" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w3/qstk_tut1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="41" selection-start="703" selection-end="719" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w3/_simulate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#21#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w3/numpy_tut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python27/Lib/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="341" column="0" selection-start="11109" selection-end="11109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="341" column="0" selection-start="11109" selection-end="11109" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w3/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="43" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="0" selection-start="10783" selection-end="10783" vertical-scroll-proportion="0.33207548">
+        <state line="326" column="0" selection-start="10783" selection-end="10783" vertical-scroll-proportion="0.33207548" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w3/numpy_tut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="18" selection-start="46" selection-end="64" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/w3/qstk_tut1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="34" selection-start="59" selection-end="93" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w3/numpy_tut.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w3/_simulate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="55" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+        <state line="22" column="0" selection-start="154" selection-end="623" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#21#39#0" expanded="true" />
+            <element signature="e#21#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w3/simulate-test.py">
+    <entry file="file://$PROJECT_DIR$/w4/qstk_tutorial9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="165" selection-start="634" selection-end="757" vertical-scroll-proportion="0.0">
+        <state line="23" column="0" selection-start="329" selection-end="567" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#329#348#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w3/simulate.py">
+    <entry file="file://$PROJECT_DIR$/w4/hw2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="33" selection-start="1039" selection-end="1039" vertical-scroll-proportion="0.0">
+        <state line="51" column="72" selection-start="1725" selection-end="1725" vertical-scroll-proportion="0.26086956">
           <folding>
-            <element signature="e#21#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w3/optimizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="830" selection-end="830" vertical-scroll-proportion="0.53333336">
-          <folding>
-            <element signature="e#20#41#0" expanded="true" />
+            <element signature="e#21#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

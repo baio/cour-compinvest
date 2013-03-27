@@ -1,12 +1,11 @@
 __author__ = 'baio'
 
 import QSTK.qstkutil.qsdateutil as du
-import QSTK.qstkutil.tsutil as tsu
 import QSTK.qstkutil.DataAccess as da
 
 import datetime as dt
 import matplotlib.pyplot as plt
-import pandas as pd
+
 
 ls_symbols = ["AAPL", "GLD", "GOOG", "$SPX", "XOM"]
 
@@ -21,6 +20,7 @@ ldf_data = c_dataobj.get_data(ldt_timestamps, ls_symbols, ls_keys)
 d_data = dict(zip(ls_keys, ldf_data))
 
 na_price = d_data['close'].values
+
 
 na_normalized = na_price / na_price[0, :]
 print na_normalized
