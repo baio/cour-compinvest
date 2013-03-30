@@ -7,7 +7,7 @@ import QSTK.qstkutil.qsdateutil as du
 
 if __name__ == '__main__':
 
-    i_amount = int(sys.argv[1])
+    i_amount = float(sys.argv[1])
     ls_orders_file = sys.argv[2]
     ls_values_file = sys.argv[3]
 
@@ -34,7 +34,7 @@ if __name__ == '__main__':
             i_order_amount = 0
             for order in found_orders:
                 d_actual_close = d_data['actual_close'][order['symbol']]
-                price_actual = d_actual_close[timestamp] #[[t for t in d_actual_close.index if t.date() == dt_order_date.date()][0]]
+                price_actual = d_actual_close[timestamp] 
                 i_order_amount = price_actual * order["amount"]
                 if order["buysell"] == "Buy":
                     i_order_amount *= -1
