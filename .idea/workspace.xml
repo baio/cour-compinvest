@@ -9,7 +9,7 @@
     <file path="/simulate.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364294264475" ignored="false" />
     <file path="/assess_portfolio.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364233142955" ignored="false" />
     <file path="/Python Console" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364230808237" ignored="false" />
-    <file path="/fragment.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1365012189555" ignored="false" />
+    <file path="/fragment.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1365018424832" ignored="false" />
     <file path="/simulate.test.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364285555493" ignored="false" />
     <file path="/__init__.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364280710466" ignored="false" />
     <file path="/simulate-test.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364292484566" ignored="false" />
@@ -17,7 +17,7 @@
     <file path="/qstk_tut9.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364402520531" ignored="false" />
     <file path="/hw2.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364410481921" ignored="false" />
     <file path="/marketsim.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1365013827491" ignored="false" />
-    <file path="/analyze.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1364640707977" ignored="false" />
+    <file path="/analyze.py" changelist="4a8c9a12-4ccd-42e7-b186-bb428c104620" time="1365018816002" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,58 +34,48 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="marketsim.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="simulate.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/w3/simulate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="46" selection-start="1052" selection-end="1065" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="simulate-test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/w3/simulate-test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marketsim.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/w5/marketsim.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="33" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
+            <state line="69" column="0" selection-start="2453" selection-end="2453" vertical-scroll-proportion="1.1268656">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orders.csv" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/w5/orders.csv">
+      <file leaf-file-name="analyze.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/w5/analyze.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="16" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.68">
+            <state line="24" column="27" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="values.csv" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="values.csv" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/w5/values.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="82" selection-end="82" vertical-scroll-proportion="-6.7070894">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="series.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/pandas/core/series.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="477" column="0" selection-start="14751" selection-end="14751" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pydevd.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1471" column="0" selection-start="58683" selection-end="58683" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="internals.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/pandas/core/internals.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="721" column="0" selection-start="22335" selection-end="22335" vertical-scroll-proportion="0.0">
+            <state line="239" column="21" selection-start="5017" selection-end="5024" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -232,7 +222,7 @@
       <recent name="C:\dev\cour\cour-compinvest\w3\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.marketsim">
+  <component name="RunManager" selected="Python.analize">
     <configuration default="true" type="tests" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -637,33 +627,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="83" />
+      <option name="time" value="84" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python27/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="326" column="0" selection-start="10783" selection-end="10783" vertical-scroll-proportion="0.33207548" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/w3/qstk_tut1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="154" selection-end="623" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w3/optimizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w4/qstk_tutorial9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="0" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w5/analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/pandas/io/parsers.py">
@@ -676,19 +646,9 @@
         <state line="848" column="23" selection-start="25614" selection-end="25614" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w3/simulate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/w3/numpy_tut.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="18" selection-start="46" selection-end="64" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/w4/hw2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
@@ -712,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/w5/marketsim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="33" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/w5/orders.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="16" selection-start="41" selection-end="41" vertical-scroll-proportion="-0.68">
@@ -729,9 +682,60 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/w4/qstk_tutorial9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="0" selection-start="2786" selection-end="2786" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w4/hw2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="62" selection-start="1989" selection-end="1989" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w3/optimizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w3/simulate-test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w3/simulate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="46" selection-start="1052" selection-end="1065" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w5/analyze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="27" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/w5/values.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="82" selection-end="82" vertical-scroll-proportion="-6.7070894">
+        <state line="239" column="21" selection-start="5017" selection-end="5024" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w5/marketsim.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="2453" selection-end="2453" vertical-scroll-proportion="1.1268656">
           <folding />
         </state>
       </provider>

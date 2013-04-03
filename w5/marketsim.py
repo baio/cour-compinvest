@@ -18,9 +18,6 @@ if __name__ == '__main__':
     na_data = [{"date": dt.datetime(int(t[0]), int(t[1]), int(t[2])), "symbol": t[3],
                 "is_buy": t[4] == "Buy", "amount": int(t[5])} for t in na_data]
 
-    #    0,      1,      2,      3
-    # date, symbol, is_buy, amount
-
     ls_symbols = set([t["symbol"] for t in na_data])
     ldt_dates = [t["date"] for t in na_data]
     dt_min = min(ldt_dates)
