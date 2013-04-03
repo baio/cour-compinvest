@@ -16,6 +16,7 @@ if __name__ == '__main__':
 
     na_data = np.array([(dt.datetime(int(t[0]), int(t[1]), int(t[2])), t[3]) for t in na_data])
 
+
     na_rets = na_data[:, 1].copy()
 
     # diff between current & perv date
