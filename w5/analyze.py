@@ -71,4 +71,4 @@ if __name__ == '__main__':
     plt.legend(["Portfolio", ls_symbol])
     plt.ylabel("Daily Value")
     plt.xlabel("Date")
-    plt.savefig('graph.pdf', format='pdf')
+    plt.savefig('graph.png', format='png')
