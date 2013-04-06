@@ -34,10 +34,12 @@ if __name__ == '__main__':
     dd_own = dd_own * 0
     ld_cash = dict()
     perv_owns = dict()
+    perv_val = d_value
 
     for timestamp in ldt_timestamps:
         date = timestamp.date()
         "update current owns accordingly to pervious owns"
+        #ld_cash[timestamp] = perv_val
         for symbol in perv_owns.keys():
             dd_own[symbol][timestamp] = perv_owns[symbol]
         found_orders = [t for t in na_data if t["date"].date() == date]
@@ -54,7 +56,13 @@ if __name__ == '__main__':
             d_value += d_order_value
             dd_own[symbol][timestamp] += amt
             perv_owns[symbol] = dd_own[symbol][timestamp]
+        #perv_val = d_value
         ld_cash[timestamp] = d_value
+
+    print dd_own.head(10)
+    print dd_own.tail(10)
+
+
 
     with open(ls_values_file, "w+") as f_out:
         for timestamp in ldt_timestamps:
@@ -62,12 +70,11 @@ if __name__ == '__main__':
             value = 0
             for symbol in ls_symbols:
                 own = dd_own[symbol][timestamp]
-                if own == own:
-                    value +=  d_data["actual_close"][symbol][timestamp] * own
+                value +=  d_data["actual_close"][symbol][timestamp] * own
             total = cash + value
             f_out.write("{0}, {1}, {2}, {3}\n".format(timestamp.year, timestamp.month, timestamp.day, int(total)))
 
 
-    print dd_own.head()
+
         #f_out.write("{0}, {1}, {2}, {3}\n".format(date.year, date.month, date.day, i_amount))
         #f_out.write("{0}, {1}, {2}, {3}\n".format(dt_max.year, dt_max.month, dt_max.day, i_amount))
