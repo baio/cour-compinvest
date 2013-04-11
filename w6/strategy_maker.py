@@ -8,6 +8,9 @@ import datetime as dt
 import QSTK.qstkutil.DataAccess as da
 
 def find_events(dt_start, dt_end, s_market_symbol, ls_symbols, func_find_particular_events):
+    """
+
+    """
     ldt_timestamps = du.getNYSEdays(dt_start, dt_end, dt.timedelta(hours=16))
     if not s_market_symbol in ls_symbols: ls_symbols.append (s_market_symbol)
     dataobj = da.DataAccess('Yahoo')
@@ -31,6 +34,6 @@ def write_strategy(out_file_name, df_events, func_particular_strategy_gen):
                 buy_amt = buy.ix[timestamp][symbol]
                 sell_amt = sell.ix[timestamp][symbol]
                 if buy_amt == buy_amt:
-                    f.write("{}, {}, {}, {}, Buy, {:n}\n".format(timestamp.year, timestamp.month, timestamp.day, symbol, buy_amt))
+                    f.write("{},{},{},{},Buy,{:n}\n".format(timestamp.year, timestamp.month, timestamp.day, symbol, buy_amt))
                 if sell_amt == sell_amt:
-                    f.write("{}, {}, {}, {}, Sell, {:n}\n".format(timestamp.year, timestamp.month, timestamp.day, symbol, sell_amt))
+                    f.write("{},{},{},{},Sell,{:n}\n".format(timestamp.year, timestamp.month, timestamp.day, symbol, -1 * sell_amt))

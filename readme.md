@@ -16,5 +16,7 @@ Professor: Tucker Balch (Georgia Institute of Technology)
 #hw4 (week 6)#
 Due Date 14 Apr
 
-[Event Studies and Simulator](https://class.coursera.org/compinvesting1-002/wiki/view?page=Week6)
+[Homework wiki](http://wiki.quantsoftware.org/index.php?title=CompInvesti_Homework_4)
+
+[Event Studies and Simulator - week 6 course page](https://class.coursera.org/compinvesting1-002/wiki/view?page=Week6)
 
