@@ -18,6 +18,7 @@ import numpy as np
 
 class TestSequenceFunctions(unittest.TestCase):
 
+    @unittest.skip("demonstrating skipping")
     def test_analise_market_sim(self):
         market_analyser.analise_market("../data/values_5_dollar_events.csv", "SPY", "../data/5_dollar_events.png")
 
@@ -25,7 +26,6 @@ class TestSequenceFunctions(unittest.TestCase):
     def test_build_market_sim(self):
         build_market(50000, "../data/orders_5_dollar_events.csv", "../data/values_5_dollar_events.csv")
 
-    @unittest.skip("demonstrating skipping")
     def test_write_strategy_equity_3_down_market_2_up_buy_100_aapl(self):
         dt_start = dt.datetime(2008, 1, 1)
         dt_end = dt.datetime(2009, 12, 31)
