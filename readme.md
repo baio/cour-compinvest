@@ -9,14 +9,20 @@ Professor: Tucker Balch (Georgia Institute of Technology)
 
 [Course WIKI (Homeworks)](http://wiki.quantsoftware.org/index.php?title=Computational_Investing_I)
 
-#hw1#
-#hw2#
-#hw3#
+##hw1##
+##hw2##
+##hw3##
 
-#hw4 (week 6)#
+##hw4 (week 6)##
 Due Date 14 Apr
 
 [Homework wiki](http://wiki.quantsoftware.org/index.php?title=CompInvesti_Homework_4)
 
 [Event Studies and Simulator - week 6 course page](https://class.coursera.org/compinvesting1-002/wiki/view?page=Week6)
 
+##hw5 (week 5)##
+Due Date N/A
+
+[Homework wiki](http://wiki.quantsoftware.org/index.php?title=CompInvesti_Homework_5)
+
+[Bollinger Bands - week 7 course page](https://class.coursera.org/compinvesting1-002/wiki/view?page=Week7)
