@@ -9,6 +9,9 @@ Professor: Tucker Balch (Georgia Institute of Technology)
 
 [Course WIKI (Homeworks)](http://wiki.quantsoftware.org/index.php?title=Computational_Investing_I)
 
+## CompInvest - unified functionality from all home works ###
+
+
 ##hw1##
 ##hw2##
 ##hw3##
@@ -26,3 +29,12 @@ Due Date N/A
 [Homework wiki](http://wiki.quantsoftware.org/index.php?title=CompInvesti_Homework_5)
 
 [Bollinger Bands - week 7 course page](https://class.coursera.org/compinvesting1-002/wiki/view?page=Week7)
+
+Forum links:
++ https://piazza.com/class#spring2013/1/1367
+
+Use analyzer to:
+
++ Create event generator, bollinger_val = 1 - buy, bollinger_val = -1 - sell
++ Create  strategy, buy / sell 100 on the event date
++ Analyze strategy

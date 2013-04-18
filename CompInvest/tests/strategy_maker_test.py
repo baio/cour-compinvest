@@ -2,12 +2,12 @@ __author__ = 'baio'
 
 
 import unittest
-from w6.events_gens.equity_3_down_market_2_up import find_events as evt
-from w6.events_gens.equity_5_dollars_actual_close import  find_events as evt_5_dollars_actual_close
-from w6.strategy_gens.event_date_buy_100_sell_5_days_later import generate_strategy as strat
-from w6.market_simulator import build_market
-from w6 import strategy_maker
-from w6 import market_analyzer
+from CompInvest.events_gens.equity_3_down_market_2_up import find_events as evt
+from CompInvest.events_gens.equity_5_dollars_actual_close import  find_events as evt_5_dollars_actual_close
+from CompInvest.strategy_gens.event_date_buy_100_sell_5_days_later import generate_strategy as strat
+from CompInvest.market_simulator import build_market
+from CompInvest import strategy_maker
+from CompInvest import market_analyzer
 import datetime as dt
 
 import QSTK.qstkstudy.EventProfiler as ep
