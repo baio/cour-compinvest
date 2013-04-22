@@ -21,11 +21,12 @@ class TestTechAnalisers(unittest.TestCase):
         tech_analizer.bollinger(dt_start, dt_end, ["GOOG"], 20, "goog_bollinger_20.png")
 
     def test_bollinger_goog_strategy(self):
-        symbols = ["AAPL", "GOOG"]
+        symbols = ["AAPL", "MSFT"]
         keys = ["close"]
-        d_data = data_access.load("2009-01-01", "2010-12-31", 16, symbols, keys)
-        events = bollinger_val.find_events(d_data)
-        print events[events["AAPL"] == 1].head()
+        d_data = data_access.load("2010-04-01", "2010-05-22", 16, symbols, keys)
+        events, vals = bollinger_val.find_events(d_data)
+        print vals["AAPL"].tail()
+        print vals["MSFT"].tail()
 
 if __name__ == '__main__':
     unittest.main()

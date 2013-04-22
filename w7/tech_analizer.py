@@ -34,7 +34,7 @@ def bollinger(dt_start, dt_end, ls_symbols, ndays):
     #plt.plot(rolling_mean)
     plt.savefig("tst.png", format='png')
 
-    return df_close, rolling_mean, rolling_std
+    return bollinger_val, df_close, rolling_mean, rolling_std
 
 
 

@@ -21,4 +21,4 @@ def find_events(d_data, ndays=20):
     df_events[vals >= 1] = 1
     df_events[vals <= -1] = -1
 
-    return df_events
+    return df_events, vals
