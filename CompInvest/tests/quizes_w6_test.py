@@ -1,8 +1,5 @@
 __author__ = 'baio'
 
-__author__ = 'baio'
-
-
 import unittest
 
 from w6.events_gens.equity_9_dollars_actual_close import  find_events as evt_9_dollars_actual_close
@@ -12,11 +9,7 @@ from w6 import strategy_maker
 from w6 import market_analyzer
 import datetime as dt
 
-import QSTK.qstkstudy.EventProfiler as ep
-
 import QSTK.qstkutil.DataAccess as da
-
-import numpy as np
 
 class TestSequenceFunctions(unittest.TestCase):
 

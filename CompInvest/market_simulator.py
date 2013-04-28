@@ -56,6 +56,8 @@ def build_market(d_value, ls_orders_file, ls_values_file):
             value = 0
             for symbol in ls_symbols:
                 own = dd_own[symbol][timestamp]
-                value += d_data["close"][symbol][timestamp] * own
+                val = d_data["close"][symbol][timestamp] * own
+                if val == val:
+                    value += val
             total = cash + value
             f_out.write("{0},{1},{2},{3}\n".format(timestamp.year, timestamp.month, timestamp.day, int(total)))
